@@ -1,0 +1,29 @@
+{
+  "name": "fokker",
+  "version": "0.0.1",
+  "description": "Yet another simple wrapper around the docker REST API.",
+  "main": "./lib/fokker.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/teemow/fokker.git"
+  },
+  "keywords": [
+    "docker"
+  ],
+  "author": "Timo Derstappen",
+  "devDependencies": {
+    "coffee-script": "*",
+    "grunt": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-mocha-test": "*",
+    "mocha": "*",
+    "chai": "*"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/teemow/fokker/issues"
+  }
+}
